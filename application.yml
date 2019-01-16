@@ -1,0 +1,14 @@
+spring:
+  profiles: dev
+  active: 
+  -dev
+---
+spring:
+  profiles: dev
+  application:
+    name: cloud-config-demo-dev
+---
+spring:
+  profiles: test
+  application:
+    name:  cloud-config-demo-test
